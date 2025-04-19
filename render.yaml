@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: product-search-fastapi
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: ENV
+        value: production
+    autoDeploy: true
