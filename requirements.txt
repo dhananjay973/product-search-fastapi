@@ -1,10 +1,6 @@
-fastapi
-uvicorn
 pandas
 faiss-cpu
-scikit-learn
-python-multipart
 numpy
+fastapi
 pydantic
-sentence_transformers
-os
+sentence-transformers
