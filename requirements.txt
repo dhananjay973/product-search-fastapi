@@ -4,3 +4,4 @@ numpy
 fastapi
 pydantic
 sentence-transformers
+uvicorn
