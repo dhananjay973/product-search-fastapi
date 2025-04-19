@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer
 import os
 
 # Load model
-model = SentenceTransformer('paraphrase-albert-small-v2')
+model = SentenceTransformer('distiluse-base-multilingual-cased-v1')
 
 # Add this BEFORE loading the index to remove old index
 INDEX_PATH = "product_index.faiss"
