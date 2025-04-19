@@ -5,3 +5,4 @@ fastapi
 pydantic
 sentence-transformers
 uvicorn
+huggingface_hub[hf_xet]
